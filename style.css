@@ -26,11 +26,27 @@ body {
     margin: 0.5em;
 }
 
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    font-size : 1.2em;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 2.3em;
+}
+
 #content {
     height : 100%;
-
-    display: flex;
-    flex-wrap: wrap;
 
     background-image: url(ressources/mines.svg);
     background-repeat: no-repeat;

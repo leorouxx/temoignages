@@ -1,0 +1,24 @@
+.fa:hover {
+    opacity: 0.9;
+    color : #000000;
+}
+
+.fa-facebook {
+    color: #005e9e;
+}
+
+.fa-instagram {
+    color: #005e9e;
+}
+
+.fa-linkedin {
+    color: #005e9e;
+}
+
+.fa {
+    padding: 0.2em;
+    text-decoration: none;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    border-radius: 0.2em;
+}
