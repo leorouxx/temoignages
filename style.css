@@ -1,0 +1,39 @@
+body {
+    font-family : 'Raleway', sans-serif;
+    margin: 0;
+    background-color: #d8effe;
+}
+
+.banner {
+    font-size: 1.2em;
+    display: flex;
+
+    background-color: #005e9e;
+    color: #fff;
+    padding: 0.2em;
+    align-items: center;
+}
+
+.banner p {
+    font-weight: 600;
+    flex : 1;
+    text-align: center;
+}
+
+#logo {
+    width: 15%;
+    height: 15%;
+    margin: 0.5em;
+}
+
+#content {
+    height : 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-image: url(ressources/mines.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
