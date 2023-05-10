@@ -17,12 +17,10 @@ body {
 .banner p {
     font-weight: 600;
     flex : 1;
-    text-align: center;
 }
 
 #logo {
-    width: 15%;
-    height: 15%;
+    height: 3em;
     margin: 0.5em;
 }
 
@@ -48,8 +46,13 @@ body {
 #content {
     height : 100%;
 
-    background-image: url(ressources/mines.svg);
+    background-image: url(../ressources/mines.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:auto;
+    background-position: center;
+
+    
+    align-items: center;
+    justify-content: center;
     
 }
